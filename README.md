@@ -4,6 +4,31 @@ RailsCheatSheet
 Wiki for ruby / rails for beginners.
 
 
+Basics
+------
+
+Variables: A code identifier that encapsulates some item of data.
+
+`variable = 3`
+
+this sets a variable named variable equal to 3. From this point forward in you method variable is the same thing as 3.
+
+`1 + variable` would be equal to 4.
+
+variables should be 
+
+
+
+
+
+Strings: Any word letters etc, that are not code. These are essentially described in two ways with double quotes, and single quotes.
+
+Double quotes are the best bet here. Following is an example of setting a variable to a string.
+
+
+
+Hashes:
+
 
 Models
 ------
