@@ -47,4 +47,22 @@ If you wanted say the record with the ID of 22 you could say.
 `Elephant.find(22)`
 
 
+Creating a new record can be done 2 ways. If we use our example from step 1 of tweets we can use the same model
+to create new records.
+
+We can say
+
+`t = Tweet.new`
+`t.body = 'Some new tweet'`
+`t.save`
+
+or we can say
+
+`t = Tweet.create({body: 'some new tweet'})`
+
+the important difference is in the first example we are only creating the tweet in memory first, 
+it is not written to the database
+until after we call save method.
+
+With the create function in the second example the object is created and immediatly saved to the database.
 
