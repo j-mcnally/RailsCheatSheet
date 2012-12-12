@@ -53,7 +53,9 @@ to create new records.
 We can say
 
 `t = Tweet.new`
+
 `t.body = 'Some new tweet'`
+
 `t.save`
 
 or we can say
