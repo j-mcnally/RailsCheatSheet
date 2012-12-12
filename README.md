@@ -38,4 +38,13 @@ If we want to find the tweet with an ID of 1. We could use this model to query o
 
 this find method will work with any model. And the default find field will always be id.
 
+Similarally if your table was named `elephants` your model would be named `Elephant` and you would query a record with
+
+`Elephant.find(1)` if you want the record with an ID of 1.
+
+If you wanted say the record with the ID of 22 you could say.
+
+`Elephant.find(22)`
+
+
 
